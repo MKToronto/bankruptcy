@@ -1,0 +1,32 @@
+
+Instructions: 
+
+
+Random Forest:
+
+
+Year3NormalisedandSplit.mat: has our all of our data for Random Forest
+
+Main files for analysis: 
+
+Test_Training_Data_70_30: this splits the data into a 70%/30% holdout. 
+
+RF_TreeBagger_MAIN.m: runs the main experiment and creates the variables and has our comments. The figures are included and optimized in the below file. 
+
+RF_TreeBagger_MAIN_Figs.m: runs the same experiment as MAIN, but is created to optimize the figures of the experiment. After running the MAIN file, please run this one. There are instructions in the file about which lines to run for the figures. 
+
+RF_Treebagger_Parameter_Tests.m: runs the parameter test for finding optimal number of trees.
+
+
+Secondary: 
+
+
+Test_Training_Data_90_10: runs the split between training and testing data at a 90% holdout. 
+
+RF_Treebagger_Parameter_Tests_90: runs the parameter test for finding optimal number of trees. 
+
+RF_TreeBagger_90.m: runs the overall experiment with a 90% holdout. 
+
+
+
+
